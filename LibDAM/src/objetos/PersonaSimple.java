@@ -23,14 +23,14 @@ import java.util.Objects;
  *
  * @author alumno
  */
-public class Persona {
+public class PersonaSimple {
     private String nombre;
     private Direccion direccion;
 
-    public Persona() {
+    public PersonaSimple() {
     }
     
-    public Persona(String nombre, Direccion direccion) {
+    public PersonaSimple(String nombre, Direccion direccion) {
         this.nombre = nombre;
         this.direccion = direccion;
     }
@@ -63,7 +63,7 @@ public class Persona {
         if (getClass() != obj.getClass()) {
             return false;
         }
-        final Persona other = (Persona) obj;
+        final PersonaSimple other = (PersonaSimple) obj;
         if (!Objects.equals(this.nombre, other.nombre)) {
             return false;
         }

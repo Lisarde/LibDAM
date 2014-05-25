@@ -21,7 +21,7 @@ package objetos;
  *
  * @author alumno
  */
-public class Proveedor extends Persona {
+public class Proveedor extends PersonaSimple {
     
     private int cod_prov;
     private double saldo;

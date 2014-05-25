@@ -21,7 +21,7 @@ package objetos;
  *
  * @author alumno
  */
-public class Paciente extends Persona{
+public class Paciente extends PersonaSimple{
 
     private Enfermedades enfermedades;
     private int telefono;

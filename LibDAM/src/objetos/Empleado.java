@@ -23,7 +23,7 @@ import java.util.Objects;
  *
  * @author alumno
  */
-public class Empleado extends Persona{
+public class Empleado extends PersonaSimple{
     
     private String cod_emple;
     private Seguro seguro;
